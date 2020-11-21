@@ -1,0 +1,99 @@
+application.title=falcon
+application.vendor=Wei Hu
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/falcon.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+excludes=
+file.reference.antlr-2.7.5.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\antlr-2.7.5.jar
+file.reference.arq-extra.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\arq-extra.jar
+file.reference.arq.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\arq.jar
+file.reference.commons-logging-1.1.1.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\commons-logging-1.1.1.jar
+file.reference.concurrent.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\concurrent.jar
+file.reference.dom4j-1.6.1.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\dom4j-1.6.1.jar
+file.reference.icu4j_3_4.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\icu4j_3_4.jar
+file.reference.iri.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\iri.jar
+file.reference.jena.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\jena.jar
+file.reference.jenatest.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\jenatest.jar
+file.reference.json.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\json.jar
+file.reference.junit.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\junit.jar
+file.reference.log4j-1.2.12.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\log4j-1.2.12.jar
+file.reference.lucene-core-2.3.1.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\lucene-core-2.3.1.jar
+file.reference.mtj.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\mtj.jar
+file.reference.stax-api-1.0.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\stax-api-1.0.jar
+file.reference.wstx-asl-3.0.0.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\wstx-asl-3.0.0.jar
+file.reference.xercesImpl.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\xercesImpl.jar
+file.reference.xml-apis.jar=D:\\NetBeans\\NetBeansProjects\\falcon\\lib\\xml-apis.jar
+includes=**
+jar.compress=false
+javac.classpath=\
+    ${file.reference.antlr-2.7.5.jar}:\
+    ${file.reference.arq-extra.jar}:\
+    ${file.reference.arq.jar}:\
+    ${file.reference.commons-logging-1.1.1.jar}:\
+    ${file.reference.concurrent.jar}:\
+    ${file.reference.dom4j-1.6.1.jar}:\
+    ${file.reference.icu4j_3_4.jar}:\
+    ${file.reference.iri.jar}:\
+    ${file.reference.jena.jar}:\
+    ${file.reference.jenatest.jar}:\
+    ${file.reference.json.jar}:\
+    ${file.reference.junit.jar}:\
+    ${file.reference.log4j-1.2.12.jar}:\
+    ${file.reference.lucene-core-2.3.1.jar}:\
+    ${file.reference.mtj.jar}:\
+    ${file.reference.stax-api-1.0.jar}:\
+    ${file.reference.wstx-asl-3.0.0.jar}:\
+    ${file.reference.xercesImpl.jar}:\
+    ${file.reference.xml-apis.jar}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.source=1.5
+javac.target=1.5
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${libs.junit.classpath}:\
+    ${libs.junit_4.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+main.class=iws.falcon.gui.MainFrame
+manifest.file=manifest.mf
+meta.inf.dir=${src.dir}/META-INF
+platform.active=default_platform
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+# Space-separated list of JVM arguments used when running the project
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value
+# or test-sys-prop.name=value to set system properties for unit tests):
+run.jvmargs=
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src
+test.src.dir=test
